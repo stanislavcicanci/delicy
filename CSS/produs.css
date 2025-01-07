@@ -1,0 +1,314 @@
+#Princi{
+    width: 40px;
+    height: 40px;
+    border:none;
+    background-color: var(--prim-cul--);
+    color: white;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+}
+
+#Princi:hover{
+    outline: none;
+    border: 2px solid var(--prim-cul--);
+    background-color: transparent;
+    color: var(--prim-cul--);
+}
+
+#pag_prin{
+    position: absolute;
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--prim-cul--);
+    margin-left: 20px;
+    width: 230px;
+    top: 5px;
+}
+.incapoi{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.sectiune{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 210px;
+    align-items: center;
+    margin-left: 122px;
+}
+
+.stanga{
+    background-image: url(../Iconite/Clacsa.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 655px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.stanga img{
+    width: 693px;
+    height: 624.68px;
+}
+
+.dreapta{
+    text-align: center;
+    margin-top: 128px;
+}
+
+.dreapta h1{
+    text-align: left;
+    font-weight: 800;
+    font-size: 60px;
+    color: black    ;
+}
+
+.dreapta h3{
+    text-align: left;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: var(--sec-cul--);
+    margin-top: 40px;
+    margin-bottom: 84px;
+    margin-left: 0;
+}
+
+.dreapta h4{
+    text-align: left;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+}
+
+span{
+    color: var(--prim-cul--);
+}
+
+
+.dreapta h5{
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+
+.start{
+    align-items: center;
+    width: 281px;
+   margin: 0 auto;
+}
+
+hr{
+    margin-top: 5px;
+}
+
+.add_p{
+    margin-top: 50px;
+    height: 90px;
+    background-color: white;
+    border: 3px solid #FFFFFF;
+    filter: drop-shadow(-6px 5px 15px #ffdaa7);
+    margin-bottom: 90px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.adaug{
+    display: flex;
+    gap: 27px;
+}
+
+.adaug h3{
+    margin: 0;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.adaug .minus{
+    width: 43px;
+    height: 43px;
+    background: transparent;
+    background-image: url(../Iconite/minus_pr.svg);
+    cursor: default;
+}
+
+.plus{
+    cursor: pointer;
+    width: 43px;
+    height: 43px;
+    background: transparent;
+    background-image: url(../Iconite/plu_pr.svg);
+}
+
+.minus:hover{
+    outline: none;
+}
+
+.plus:hover{
+    outline: none;
+}
+
+.adaug .minus_fin{
+    width: 43px;
+    height: 43px;
+    background: transparent;
+    background-image: url(../Iconite/minus_pr.svg);
+    cursor: default;
+}
+
+.plus_fin{
+    cursor: pointer;
+    width: 43px;
+    height: 43px;
+    background: transparent;
+    background-image: url(../Iconite/plu_pr.svg);
+}
+
+.minus_fin:hover{
+    outline: none;
+}
+
+.plus_fin:hover{ 
+    outline: none;
+}
+
+@media screen and (max-width: 625px){
+    #Princi{
+        width: 30px;
+        height: 30px;
+    }
+
+    #pag_prin{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .sectiune{
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .stanga{
+        position: absolute;
+        scale: 0.53;
+        top: -40px;
+        left: -100px;
+    }
+
+    .dreapta{
+        margin-top: 460px !important;
+        margin-left: 47px !important;
+    }
+
+    .dreapta h1{
+        font-weight: 800;
+        font-size: 32px !important;
+        line-height: 38px !important;
+        margin-left: 0 !important;
+        text-align: left !important;
+    }
+
+    .dreapta h3{
+        font-size: 16px !important;
+        line-height: 19px !important;
+        letter-spacing: 0.1em !important;
+        margin-top: 20px !important;
+    }
+
+    .dreapta h4{
+        font-size: 16px !important;
+        line-height: 19px !important;
+        letter-spacing: 0.1em !important;
+        margin-bottom: 16px !important;
+        width: 300px !important;
+    }
+
+    .add{
+        margin-bottom: 0 !important;
+        justify-content: space-between !important;
+        gap: 20px !important;
+        width: 425px !important;
+    }
+
+    .dreapta h5{
+        font-size: 16px !important;
+        line-height: 19px !important;
+        letter-spacing: 0.1em !important;
+        width: 200px !important;
+    }
+
+    .adaug h3{
+        margin-top: 0 !important;
+    }
+
+    .adaug .minus{
+        background-size: cover;
+        background-position: center;
+        width: 23px !important;
+        height: 23px !important;
+    }
+
+    .minus_fin, .plus, .plus_fin{
+            background-size: cover !important;
+            background-position: center !important;
+            width: 23px !important;
+            height: 23px !important;
+    }
+
+    .desc{
+        width: 388px !important;
+        font-weight: 500 !important;
+        font-size: 16px !important;
+        letter-spacing: 0.1em !important;
+        margin-bottom: 45px !important;
+    }
+    .adaug{
+        margin-left: 0px !important;
+        margin-right: 10px !important;
+    }
+
+    hr{
+        width: 430px !important;
+    }
+
+    .add_p{
+        width: 406px !important;
+        height: 48px !important;
+    }
+
+    .incapoi{
+        z-index: 9999;
+    }
+
+    .start{
+        position: absolute;
+        left: 147px;
+        width: 205.35px;
+        height: 38px;
+        left: 147px;
+        top: 880px;
+        font-size: 15px;
+    }
+
+}

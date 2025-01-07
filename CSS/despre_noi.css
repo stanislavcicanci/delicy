@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Qwigley&display=swap');
+.delicy{
+    font-family: 'Qwigley';
+    font-weight: 400;
+    font-size: 96px;
+    color: var(--prim-cul--);
+}
+
+.sectiunea_1{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectiunea_1 h2{
+        margin-top: 3px;
+        margin-bottom: 0;
+        width: 726px;
+}
+
+#h2{
+    width: auto;
+    margin-top: 65px;
+}
+
+.sectiunea_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectiunea_2 h1{
+    text-align: left;
+}
+
+.sectiunea_2 h2{
+    width: 726px;
+    text-align: left;
+}
+
+.start{
+    margin: 0;
+    float: left;
+}
+
+.sectiunea_3 h1{
+    width: 100%;
+}
+
+.sectiunea_3{
+    align-content: center;
+}
+
+.sectiunea_3 h2{
+    width: 1162px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 70px;
+}
+
+footer{
+    margin-top: 250px;
+}
+
+footer .elem_footer{
+    padding-top: 63px;
+}
+
+.swiper-slide{
+    text-align: center;
+    margin-left: 0;
+}
+
+.swiper {
+    width: 500px;
+    height: 338.57px;
+    direction:vertical;
+}
+
+.swiper img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: unset !important;  
+}
+
+.swiper-pagination-bullet{
+   bottom: none;
+    background-color: rgb(255, 157, 0) !important;
+    margin-top: 46px !important;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+}
+
+@media screen and (max-width: 625px){
+    .sectiunea_1{
+       margin-top: 30px;
+       display: grid;
+       grid-template-columns: 1fr;
+    }
+
+    .sectiunea_1 .dreapta {
+        width: 100px !important;
+        height: 100px !important;
+        margin-bottom: 200px !important;
+    }
+
+    .sectiunea_1 .dreapta img{
+        width: 400%;
+        height: 300%;
+    }
+
+    .sectiunea_2 {
+        display: grid;
+       grid-template-columns: 1fr;
+       gap: 250px;
+    }
+
+    .start{
+        float: none !important;
+    }
+
+    .swiper {
+        width: 400px;
+        height: 300px;
+        direction:vertical;
+    }
+
+    .sectiunea_2 .stanga{
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .sectiunea_2 .stanga img{
+        width: 400%;
+        height: 300%;
+    }
+    
+}

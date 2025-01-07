@@ -1,0 +1,346 @@
+.tot .stanga button{
+    position: absolute;
+}
+
+.tot{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Princi{
+    top: 30px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+    border:none;
+    background-color: var(--prim-cul--);
+    color: white;
+}
+
+#Princi:hover{
+    outline: none;
+    border: 2px solid var(--prim-cul--);
+    background-color: transparent;
+    color: var(--prim-cul--);
+}
+
+.stanga {
+    background-image: url('../Imagini/');
+}
+
+.tot .stanga a:nth-of-type(2){
+    position: absolute !important;
+    top: 35px;
+    left: 90px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color:  var(--prim-cul--);
+    width: auto;
+  }
+
+form{
+    position: relative;
+    width: 570px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+form img:nth-of-type(1){
+    position: absolute;
+    left: 10px;
+    top: 16px;
+}
+
+form img:nth-of-type(2){
+    position: absolute;
+    left: 10px;
+    top: 102px;
+}
+
+form img:nth-of-type(3){
+    position: absolute;
+    left: 10px;
+    top: 186px;
+}
+
+form img:nth-of-type(4){
+    position: absolute;
+    left: 10px;
+    top: 272px;
+}
+
+form h2{
+    margin-top: 4px;
+    margin-left: 20px !important;
+    width: 300px !important;
+    font-weight: 700;
+    font-size: 16px !important;
+    margin-bottom: 40px;
+}
+
+.elem_con h2{
+    margin-top: 0;
+    padding-top: 17px;
+    margin-left: 184px !important;
+    font-weight: 700;
+    width: 117px !important;
+    font-size: 16px !important;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+form a{
+    top: 17px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.elem_con{
+    align-items: center;
+    width: 300px;
+}
+
+form span{
+    color: #4ECB71;
+}
+
+input[type="submit"]{
+    border: none;
+    border-radius: 44px;
+    color: black;
+    background-color: white;
+    outline: 2px solid black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input:nth-of-type(4){
+    margin-bottom: 70px;
+}
+
+.tot .stanga h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    width: auto;
+    margin-bottom: 60px;
+}
+
+input[type="checkbox"]{
+    float: left;
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--sec-cul--);
+}
+
+.vezi{
+    width: 164px;
+    height: 52px;
+    float: left;
+}
+
+.stanga{
+    margin-top: 240px;
+    text-align: center;
+}
+
+.dreapta{
+    background-image: url(../Imagini/Inregistrare.svg);
+    width: 1030px;
+    height: 1080px;
+    text-align: center;
+}
+
+.dreapta img{
+    margin-top: 266px;
+    margin-bottom: 40px;
+}
+
+.dreapta h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    color: white;
+    width: 378px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+
+.iconite_i {
+    margin-top: -68px;
+    margin-left: 444px;
+    position: relative;
+    width: 126px;
+}
+
+.iconite_i button{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+}
+
+.iconite_i button:hover{
+    outline: none;
+}
+    
+
+
+.iconite_i button:nth-of-type(1){
+    background-image: url("../Iconite/Googl_log.svg");
+    position: absolute;
+    left: 0;
+}
+
+.iconite_i button:nth-of-type(2){
+    background-image: url("../Iconite/Facebook_log.svg");
+    position: absolute;
+    left: 47px;
+}
+
+.iconite_i button:nth-of-type(3){
+    background-image: url("../Iconite/Twitter_log.svg");
+    position: absolute;
+    left: 92px;
+}
+
+.iconite_i button:nth-of-type(1):hover{
+    background-image: url(../Iconite/Googl_log1.svg);
+}
+
+.iconite_i button:nth-of-type(2):hover{
+    background-image: url(../Iconite/Facebook_log1.svg);
+}
+
+.iconite_i button:nth-of-type(3):hover{
+    background-image: url(../Iconite/Twitter_log1.svg);
+}
+
+
+
+@media screen and (max-width: 625px){
+
+    #Princi{
+        width: 25px !important;
+        height: 25px !important;
+        font-size: 14px !important;
+    }
+
+    .pag_p{
+        font-size: 16px !important;
+        margin-left: -20px;
+    }
+
+    .tot{
+        grid-template-columns: 1fr;
+        width: 500px !important;
+    }
+
+    .stanga{
+        margin-top: 68px !important;
+        margin-left: 35px !important;
+        margin-right: auto;
+        margin-bottom: 48px;
+    }
+
+    h1{
+        text-align: left;
+        font-size: 38px;
+        margin-left: 112px !important;
+    }
+
+    form img:nth-of-type(1){
+        top: 10px;
+    }
+    
+    form img:nth-of-type(2){
+        top: 96px;
+    }
+    
+    form img:nth-of-type(3){
+        top: 176px;
+    }
+    
+    form img:nth-of-type(4){
+        top: 256px;
+    }
+
+    input[type="checkbox"]{
+        width: 19px;
+        height: 19px;
+    }
+
+    h2{
+        font-size: 12px;
+        margin-top: 0 !important;
+    }
+
+    input{
+        font-size: 16px !important;
+    }
+
+    .dreapta{
+        width: 500px !important;
+        height: 365px !important;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .dreapta img{
+        width: 132px !important;
+        height: 132px !important;
+        margin-top: 69px !important;
+    }
+
+    .dreapta h2{
+        width: 183px !important;
+        font-weight: 700 !important;
+        font-size: 12px !important;
+        letter-spacing: 0.2em !important;
+    }
+
+
+    
+    .vezi{
+        width: 124px;
+        height: 39px;
+        font-size: 15px;
+        margin-bottom: -10px !important;
+    }
+
+    .elem_con h2{
+        margin-left: 138px !important;
+        padding-top: 10px !important;
+    }
+
+    .iconite_i{
+        left: -130px !important;
+        gap: 10px !important;
+        top: 0;
+    }
+
+    .iconite_i button{
+        width: 30px !important;
+        height: 30px !important;
+        background-position: center;
+        background-size: contain;
+    }
+
+    input[type="text"],input[type="email"], input[type="password"]  {
+        width: 320px !important;
+        margin-left: -170px !important;
+    } 
+}

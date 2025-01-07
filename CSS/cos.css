@@ -1,0 +1,204 @@
+.cos_tot h1{
+    margin-top: 85px;
+    width: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 130px;
+}
+
+.produse_cos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+}
+
+.prod_st{
+    display: flex;
+    align-items: center;
+}
+
+.prod_st img{
+    height: 109px;
+    width: 109px;
+    margin-left: 20px;
+}
+
+.prod_st h3{
+    margin-top: 0;
+    margin-left: 70px;
+}
+
+.prod_dr{
+    display: flex;
+    align-items: center;
+}
+
+.add_min{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    right: 205px;
+}
+
+.add_min .min_cos{
+    width: 43px;
+    height: 43px;
+    background-image: url(../Iconite/minus_pr.svg);
+    background-color: transparent;
+    cursor: default;
+}
+
+.add_min .min_cos:hover{
+    outline: none;
+}
+
+.sterg{
+    position: absolute;
+    right: 0;
+    top: -21px;
+}
+
+.cru_cos{
+    background-image: url(../Iconite/Cruce.svg);
+    width: 43px;
+    height: 43px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.cru_cos:hover{
+    outline: none;
+}
+
+
+.add_min .plu_cos{
+    width: 43px;
+    height: 43px;
+    background-image: url(../Iconite/plu_pr.svg);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.add_min h4{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.add_min .plu_cos:hover{
+    outline: none;
+}
+
+.prod_dr h3{
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--prim-cul--);
+    margin-right: 50px;
+    
+}
+
+.prod_cos{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1270px;
+    height: 150px;
+    box-shadow: 0px 3.33953px 15.8628px rgba(0, 0, 0, 0.25);
+    border-radius: 44px;
+    margin: 0 auto;
+}
+
+.pret_tot{
+    width: auto;
+    height: 72px;
+    background-color: var(--prim-cul--);
+    padding-left: 92px;
+    padding-right: 92px;
+    margin-top: 200px;
+    margin-left: 822px;
+}
+
+footer .elem_footer{
+    padding-top: 63px;
+}
+
+
+.Error{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 1080px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(../Imagini/Error.jpg);
+    background-color: white;
+    display: none;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.Error{
+    color: black;
+    font-size: 50px;
+    margin-top: 130px;
+    width: 100%;
+}
+
+@media screen and (max-width: 625px){
+    .prod_cos{
+        width: 800px;
+        scale: 0.6;
+        margin-left: -200px;
+    }
+
+    .produse_cos{
+        gap: 0;
+        margin-left: 2px;
+    }
+
+    .prod_st h3{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .pret_tot{
+        margin-top: 50px;
+        margin-left: -10px !important;
+    }
+
+    .Error  .h1{
+        font-size: 30px !important;
+    }
+
+    .Error{
+        margin-top: 130px !important;
+        background-size: contain;
+        background-position: bottom;
+        height: 300px !important;
+    }
+
+    .cos_tot h1{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        margin-top: 70px;
+    }
+    /* .prod_st img{
+        width: 90px;
+        height: 110px;
+    }
+
+    .prod_st h3{
+        width: 77px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .prod_cos{
+        width: 426px !important;
+        height: 67px !important;
+    } */
+}

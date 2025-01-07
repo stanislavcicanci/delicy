@@ -1,0 +1,414 @@
+h2{
+    color: black;
+    font-weight: 700;
+    font-size: 50px;    
+    margin-top: 85px;
+    width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+input{
+    background-color: white;
+    border: 3px solid var(--prim-cul--);
+    width: 572px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    border-radius: 44px;
+    color: black;
+
+}
+
+input:focus{
+    background-color: white;
+    outline: 3px solid rgb(255, 247, 184);
+    border-color: var(--prim-cul--);
+}
+
+.stik{
+    width: 100%;
+    background-color: white;
+    height: 235px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+.toate_prod{
+    width: 1426px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 85px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.img{
+    width: auto;
+    cursor: pointer;
+}
+
+.produs img{
+    margin-top: 30px;
+    width: auto;
+    height: 150px;
+}
+
+.toate_prod h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.elem_pr{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 35px;
+    bottom: 22px;
+}
+
+.toate_prod h3:nth-of-type(2){
+    position: absolute;
+    bottom: 92px;
+    left: 168px;
+}
+
+.elem_pr h3{
+    width: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0 !important;
+}
+
+.produs{
+    position: relative;
+}
+
+.elem_pr .minus_pr{
+    width: 43px;
+    height: 43px;
+    background-image: url(../Iconite/minus_pr.svg);
+    background-color: transparent;
+    background-position: center;
+    float: left;
+}
+
+.elem_pr .minus_pr:hover{
+    cursor: default;
+    outline: none;
+}
+
+.elem_pr .add_pr{
+    margin-right: 0;
+    margin-left: 40px;
+    width: 152px;
+}
+
+.elem_pr .plu_pr{
+    width: 43px;
+    height: 43px;
+    background-image: url(../Iconite/plu_pr.svg);
+    background-color: transparent;
+    background-position: center;
+    float: left;
+}
+
+.produs .plu_pr:hover{
+    cursor: pointer;
+    outline: none;
+}
+
+.toate_prod p{
+    width: 360px;
+    color: var(--sec-cul--);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.toate_prod .produs{
+    width: 418.66px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0px 3.33953px 15.8628px rgba(0, 0, 0, 0.25);
+    border-radius: 44px;
+}
+
+#cauta{
+    margin-top: 43px;
+}
+
+.cauta button{
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cauta button:hover{
+    outline: none;
+    background-color: transparent;
+    color:#9d9d9d;
+}
+
+.cauta {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 48px;
+    margin-left: 283px;
+    align-items: center;
+    gap: 45px;
+}
+
+.primu{
+    display: flex;
+    align-items: center;
+    width: 197px;
+    height: 50px;
+}
+
+.text_fil{
+    color: #9d9d9d;
+}
+
+.icon_fil{
+    width: 40px;
+    height: 40px; 
+}
+
+.primu button:nth-of-type(1){
+    background-image: url(../Iconite/Toate_std.svg);
+    width: 50px;
+    height: 50px;
+}
+    
+
+.primu button:nth-of-type(2){
+    color: #9d9d9d;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: left;
+    margin-left: 23px;
+}
+
+.doi{
+    display: flex;
+    align-items: center;
+    width: 197px;
+    height: 50px;
+}
+
+
+.doi button:nth-of-type(1){
+    border-radius: 0;
+    background-image: url(../Iconite/Pizza_std.svg);
+}
+    
+
+.doi button:nth-of-type(2){
+    color: #9d9d9d;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: left;
+    margin-left: 23px;
+}
+
+.trei{
+    display: flex;
+    align-items: center;
+    width: 197px;
+    height: 50px;
+}
+
+
+.trei button:nth-of-type(1){
+    background-image: url(../Iconite/Burger.svg);
+}
+    
+
+.trei button:nth-of-type(2){
+    color: #9d9d9d;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: left;
+    margin-left: 23px;
+}
+
+.patry {
+    display: flex;
+    align-items: center;
+    width: 197px;
+    height: 50px;
+}
+
+.patry button:nth-of-type(1){
+    background-image: url(../Iconite/Dulce.svg);
+}
+    
+
+.patry button:nth-of-type(2){
+    color: #9d9d9d;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: left;
+    margin-left: 23px;
+}
+
+.cinci{
+    display: flex;
+    align-items: center;
+    width: 197px;
+    height: 50px;
+}
+
+.cinci button:nth-of-type(1){
+    background-image: url(../Iconite/Bautura.svg);
+}
+    
+
+.cinci button:nth-of-type(2){
+    color: #9d9d9d;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: left;
+    margin-left: 23px;
+}
+
+.text_fil{
+     width: 134px;
+    padding-left: 14.5px;
+}
+
+footer .doi .nav-bar{
+    margin-top: 160px;
+  }
+
+footer .elem_footer{
+    padding-top: 63px;
+}
+
+.text_ac{
+    background-color: var(--prim-cul--) !important;
+    color: white !important;
+     width: 134px;
+    padding-left: 14.5px;
+}
+
+@media screen and (max-width: 625px){
+    h2{
+        width: 400px !important;
+        font-size: 40px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+
+    .primu{
+        float: left;
+        width: 180px;
+    }
+
+
+    .toate_prod{
+        width: 400px;
+        grid-template-columns: 1fr !important; 
+        margin-top: 100px;
+    }
+
+
+    .primu button:nth-of-type(2){
+        margin-left: 0 !important;
+    }
+    input{
+        width: 320px;
+        font-size: 18px;
+        margin-top: 10px !important;
+    }
+
+    .cauta{
+        scale: 0.6;
+         margin-top: 30px;
+         width: 220px;
+        background-color: rgba(255, 255, 255, 0.616) !important;
+        margin-left: -50px !important;
+        gap: 0px;
+    }
+
+    .doi{
+        margin-left: -30px;
+    }
+
+    .trei{
+        margin-left: -50px;
+    }
+    .patru{
+        margin-left: -50px;
+    }
+
+    .cinci{
+        margin-left: -50px;
+    }
+    .text_fil{
+        width: 70px;
+        font-size: 20px;
+        margin-left: 0 !important;
+    }
+    
+    .text_ac{
+        width: 100px !important;
+        margin-left: 0 !important;
+    }
+
+    .primu{
+        margin-right: 10px;
+    }
+
+    .trei{
+        width: 150px !important;
+    }
+
+    .search{
+        display: block;
+        margin-left: -20px !important;
+    }
+
+    .patry{
+        margin-left: 10px;
+    }
+
+    .stik{
+        display: block;
+        position: relative;
+        height: 80px !important;
+    }
+
+    .icon_fil{
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+    }
+
+    footer .trei{
+        margin-top: 160px;
+        margin-left: -35px !important;
+    }
+
+    footer .patru{
+        margin-top: 100px;
+        margin-left: -35px !important;
+    }
+
+    
+}

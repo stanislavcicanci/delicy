@@ -1,0 +1,284 @@
+body .wrapper{
+    width: 1243px;
+    height: 1050px;
+    margin-left: 180px;
+    text-align: left;
+}
+
+.sectiunea_1{
+    margin-left: 86px;
+}
+
+footer{ 
+    display: none;
+}
+
+.sectiunea_1 h1{
+    text-align: left;
+    width: 464px;
+}
+
+.sectiunea_1 p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    margin-top: 20px;
+    width: 505px;
+    color: var( --sec-cul--);
+    margin-bottom: 76px;
+}
+
+input{
+    padding: 13px 30px 13px 30px;
+    font-style: normal;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 20px;
+    width: 510px;
+    color: var(--sec-cul--);
+    border: 2px solid var(--sec-cul--);
+    margin-bottom: 30px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.500);
+}
+
+input:focus {
+    outline: none;
+    background-color: white;
+}
+
+input[type="submit"]{
+    border: none;
+    border-radius: 44px;
+    color: black;
+    background-color: white;
+    outline: 2px solid black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+#Salata{
+    position: absolute;
+    bottom: 276px;
+    left: 145px;
+    z-index: -10;
+}
+
+/* input:valid {
+    background-color: greenyellow;
+    color: black;
+} */
+
+/* 
+const input = document.querySelector('input[type="text"]');
+
+input.addEventListener('input', () => {
+  if (input.value.length > 0) {
+    input.style.backgroundColor = 'green';
+  } else {
+    input.style.backgroundColor = 'white';
+  }
+});
+*/
+
+.vezi{
+    margin-top: 23px;
+    width: 570px;
+}
+
+.meniu{
+    margin-left: 131px;
+    margin-right: 110px;
+}
+
+.cont_dr{
+    position: absolute;
+    background-image: url('../Imagini/Cont_dr.png');
+    right: 0;
+    top: 0;
+    width: 400px;
+    height: 1080px;
+    z-index: -1;
+}
+
+.con2{
+    background-image: none;
+    background-color: var( --prim-cul--);
+    opacity: 45%;
+}
+
+.text_info{
+    position: absolute;
+    top: 192px;
+    right: 349px;
+    width: 308px;
+    height: 602px;
+    margin-left: 63px;
+    margin-top: 80px;
+    color: white;
+}
+
+.informatii{
+    position: absolute;
+    background-image: url('../Imagini/Informatii.svg');
+    top: 192px;
+    right: 199px;
+    width: 520px;
+    height: 602px;
+    border-radius: 44px;
+    z-index: -1;
+}
+
+.inf2{
+    background-image: none;
+    background-color: #181617;
+    opacity: 80%;
+}
+
+.text_info{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.text_info h1{
+    font-size: 30px;
+}
+
+p .info{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    text-align: left;
+}
+
+.text_inf{
+    margin-left: 25px;
+}
+
+
+
+
+
+.retele_co{
+    position: absolute;
+    bottom: 90px;
+    right: -400px;
+    display: flex;
+    gap: 40px;
+    z-index: 999;
+}
+
+.retele_co button{
+    width: 39px;
+    height: 39px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.retele_co button:hover{
+    outline: 0;
+  }
+
+  footer{
+    display: none;
+  }
+
+ .retele_co button:nth-of-type(1)
+{
+    background-image: url('../Iconite/facebook01.png');
+}
+
+.retele_co button:nth-of-type(1):hover
+{
+    background-image: url('../Iconite/facebook02.png');
+}
+
+.retele_co button:nth-of-type(2)
+{
+    background: url('../Iconite/Instagram01.png');
+}
+
+.retele_co button:nth-of-type(2):hover{
+    background: url('../Iconite/Instagram02.png');
+}
+
+
+.retele_co button:nth-of-type(3)
+{
+    background-image: url('../Iconite/Twitter01.png');
+}
+
+.retele_co button:nth-of-type(3):hover
+{
+    background-image: url('../Iconite/Twitter02.png');
+} 
+
+@media screen and (max-width: 625px){
+
+    .sectiunea_1{
+        margin-left: 0 !important;
+    }
+
+    .cont_dr{
+        display: none !important;
+    }
+
+    .informatii{
+        background-size: cover;
+        top: 820px !important;
+        left: 35px !important;
+        width: 430px;
+        height: 496px;
+    }
+
+    p{
+        width: 400px !important;
+        font-size: 18px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    input{
+        width: 320px;
+        font-size: 18px;
+    }
+
+    .vezi{
+        width: 400px;
+        font-size: 18px;
+    }
+
+    #Salata{
+        left: 10px;
+        top: 380px;
+        height: 300px;
+    }
+
+    .info{
+        gap: 20px;
+    }
+
+    .text_info{
+        gap: 60px;
+       left: 20px;
+       top: 790px;
+    }
+
+    .retele_co{
+        left: 200px !important;
+        top: 1240px;
+    }
+
+}

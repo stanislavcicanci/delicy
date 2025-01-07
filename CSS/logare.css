@@ -1,0 +1,271 @@
+.tot .stanga{
+    position: relative;
+    background-image: url('../Imagini/Logare.png');
+    width: 1030px;
+    height: 1080px;
+}
+
+.tot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 160px;
+}
+
+.tot .stanga button{
+    position: absolute;
+}
+
+.tot .stanga img{
+    position: absolute;
+    top: 266px;
+    left: 378px;
+}
+
+
+.tot h2:nth-last-child(1){
+    width: 378px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    color: white;
+    top: 540px;
+    left: 326px;
+    text-align: center;
+}
+
+.dreapta h3{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--sec-cul--);
+}
+
+.dreapta h2{
+    width: auto;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom:35px;
+}
+
+.tot .dreapta{
+    position: relative;
+    margin-top: 290px;
+    text-align: center;
+    width: 570px;
+}
+
+.tot .dreapta img:nth-of-type(1){
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+.tot .dreapta img:nth-of-type(2){
+    position: absolute;
+    top: 285px;
+    left: 10px;
+}
+
+
+.tot .dreapta2{
+    position: absolute;
+    width: 620px;
+    margin-top: 160px !important;
+    left: 1155px;
+    height: 780px;
+    border: 1px solid #FFA92F;
+    box-shadow: 4px 5px 23px rgba(199, 16, 16, 0.72);
+    border-radius: 44px;
+    z-index: -1;
+}
+
+.tot .dreapta h1{
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: auto;
+}
+
+input{
+    padding: 13px 30px 13px 50px;
+    font-style: normal;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 20px;
+    width: 510px;
+    color: var(--sec-cul--);
+    border-bottom: 2px solid var(--sec-cul--);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 35px;
+    z-index: 999;
+}
+
+input:focus{
+    outline: unset;
+    background-color: transparent;
+}
+
+input:nth-of-type(1){
+    margin-top: 50px;
+}
+
+input:nth-of-type(2){
+    margin-bottom: 0;
+}
+
+.link_icon button{
+    position: static;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+}
+
+.link_icon button:hover{
+    outline: 0;
+}
+
+a{
+    font-size: 29.8px
+}
+
+.linl_icon a{
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.link_icon a:nth-of-type(1){
+    background-image: url('../Iconite/Googl_log.svg');
+    background-repeat: no-repeat !important;
+}
+
+.link_icon a:nth-of-type(2){
+    background-image: url('../Iconite/Facebook_log.svg');
+    background-repeat: no-repeat !important;
+}
+
+.link_icon a:nth-of-type(3){
+    background-image: url('../Iconite/Twitter_log.svg');
+    background-repeat: no-repeat !important;
+}
+
+
+.link_icon a:nth-of-type(1):hover{
+    background-image: url('../Iconite/Googl_log1.svg');
+    background-repeat: no-repeat !important;
+    
+}
+
+.link_icon a:nth-of-type(2):hover{
+    background-image: url('../Iconite/Facebook_log1.svg');
+    background-repeat: no-repeat !important;
+}
+
+.link_icon a:nth-of-type(3):hover{
+    background-image: url('../Iconite/Twitter_log1.svg');
+    background-repeat: no-repeat !important;
+}
+
+.link_icon{
+    display: grid;
+    grid-template-columns: 35px 35px 35px;
+    gap: 11px;
+    justify-content: center;
+}
+
+.tot .stanga a:nth-last-child(2){
+    position: absolute;
+    top: 35px;
+    left: 90px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    width: auto;
+  }
+
+input[type="submit"]{
+    border: none;
+    border-radius: 44px;
+    color: black;
+    background-color: white;
+    outline: 2px solid black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.vezi{
+    width: 570px;
+    margin-top: 100px;
+}
+
+#Princi{
+    top: 30px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#Princi:hover{
+    outline: none;
+    border: none;
+    background-color: white;
+    color: var( --prim-cul--);
+}
+
+
+@media screen and (max-width: 625px){
+    .tot{
+        position: relative;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    
+    .stanga{
+        position: absolute;
+        scale: 0.472;
+        float: left;
+        left: -280px;
+        top: -280px;
+    }
+
+    #Princi{
+        width: 60px !important;
+        height: 60px  !important;
+        margin-left: 20px !important;
+    }
+    .pad_pr{
+        font-size: 32px !important;
+        margin-left: 40px !important;
+        margin-top: 8px !important;
+    }
+
+    .delic{
+        width: 183.5px !important;
+        left: 140px !important;
+        top:  260px !important;
+    }
+
+    .dreapta{
+        scale: 0.7;
+        position: relative;
+        top: -900px !important;
+        left: -50px !important;
+    }
+
+    .img{
+        margin-top: -10px !important;
+    }
+    
+}

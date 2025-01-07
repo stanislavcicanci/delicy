@@ -1,0 +1,269 @@
+.sectiunea_1 h1{
+  width: auto;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.sectiunea_1 h2 {
+  width: auto;
+  margin-top: 28px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer{
+  display: none;
+}
+
+.wrapper{
+  position: relative;
+}
+
+.sectiunea_1 img:nth-of-type(1){
+  position: absolute;
+  transform: rotate(-23.21°deg);
+  left: -140px;
+  top: 436px;
+}
+
+.sectiunea_1 img:nth-of-type(2){
+  position: absolute;
+  right: -130px;
+  top: 669px;
+}
+
+.intrebarile{
+  padding-bottom: 87px;
+  width: auto;
+  margin-left: 86px;
+}
+
+.intrebarile .intrebare{
+  position: relative;
+  margin-left: 224px;
+  text-align: left;
+}
+
+.intrebare img{
+  background-image: url('../Iconite/Plus.svg');
+  position: absolute !important;
+  transform: none !important;
+  top: 7px !important;
+  left: 0 !important;
+}
+
+.intrebare img:hover{
+  background-image: url('../Iconite/Minus.svg');
+}
+
+.intrebare hr{
+  width: 1026px;
+  height: 2px;
+  background-color: var(--prim-cul--);
+  border: none;
+}
+
+.intrebare h3{
+  margin-top: 0;
+  margin-left: 73px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+
+.intrebarile .intrebare:nth-of-type(2)
+{
+  margin-top: 30px;
+}
+
+.intrebarile .intrebare:nth-of-type(3)
+{
+  margin-top: 30px;
+}
+
+.intrebarile .intrebare:nth-of-type(4)
+{
+  margin-top: 30px;
+}
+
+.intrebarile .intrebare:nth-of-type(5)
+{
+  margin-top: 30px;
+}
+
+.meniu_misc p{
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  animation:scale-up-ver-top .4s cubic-bezier(.39,.575,.565,1.000) both}
+
+.img{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 7px;
+  margin-right: 0  ;
+  background-image: url(../Iconite/Plus.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rotate-in-center {
+  animation: rotate-in-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  background-image: url(../Iconite/Minus_q.svg);
+}
+
+@keyframes rotate-in-center {
+  0% {
+    transform: rotate(-90deg);
+    opacity: 0;
+    background-image: url(../Iconite/Plus.svg); /* Backgroundul inițial */
+  }
+
+  50%{
+      transform: rotate(0); /* Rotație până la 75% */
+      opacity: 1;
+      background-image: url(../Iconite/Plus.svg); /* Backgroundul nou */
+  }
+  75% {
+    transform: rotate(-90deg); /* Rotație până la 75% */
+    opacity: 1;
+    background-image: url(../Iconite/Minus_q.svg);
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+    background-image: url(../Iconite/Minus_q.svg); /* Backgroundul nou */
+  }
+}
+
+.rotate-out-center {
+  animation: rotate-out-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  background-image: url(../Iconite/Plus.svg);
+}
+
+@keyframes rotate-out-center {
+  0% {
+    transform: rotate(-90deg);
+    opacity: 0;
+    background-image: url(../Iconite/Minus_q.svg); /* Backgroundul nou */
+  }
+
+  50%{
+      transform: rotate(0); /* Rotație până la 75% */
+      opacity: 1;
+      background-image: url(../Iconite/Minus_q.svg); /* Backgroundul nou */
+  }
+  75% {
+    transform: rotate(-90deg); /* Rotație până la 75% */
+    opacity: 1;
+    background-image: url(../Iconite/Plus.svg); /* Backgroundul nou */
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+    background-image: url(../Iconite/Plus.svg); /* Backgroundul nou */
+  }
+}
+
+
+.meniu_misc{
+  margin-left: 73px;
+  margin-bottom: 30px;
+  width: 954px;
+  display: none;
+ }
+
+
+  .scale-in-ver-top{
+      animation:scale-in-ver-top .5s cubic-bezier(.25,.46,.45,.94) both;
+      display: block;
+    }
+
+
+  @keyframes scale-in-ver-top{0%{transform:scaleY(0.3);
+      margin-top: -50px;
+      transform-origin:100% 0;opacity:0}100%{transform:scaleY(1);transform-origin:100% 0;opacity:1}}
+      
+
+      .scale-out-ver-top {
+          animation: scale-out-ver-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        }
+        
+
+      @keyframes scale-out-ver-top {
+          0% {
+            transform: scaleY(1);
+            transform-origin: 100% 0%;
+            opacity: 1;
+          }
+          100% {
+            transform: scaleY(0);
+            transform-origin: 100% 0%;
+            opacity: 0;
+          }
+        }
+.intrebare{
+  cursor: pointer;
+}
+
+
+
+.intrebare button{
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.intrebare button:hoevr{
+  outline: none !important;
+  border: none !important;
+  background-color: var(--prim-cul--) !important;
+}
+
+
+@media screen and (max-width: 625px){
+.sectiunea_1 img:nth-of-type(1){
+  width: 107px;
+  height: 113px;
+  left: -60px;
+  top: 436px;
+}
+
+.sectiunea_1 img:nth-of-type(2){
+  width: 108px;
+  height: 107px;
+  right: -90px;
+  top: 669px;
+}
+
+ .intrebare h3{
+  font-weight: 600;
+  font-size: 28px !important;
+ }
+
+ .intrebare p{
+  font-weight: 600;
+  font-size: 19px !important;
+ }
+
+.intrebarile{
+  margin-left: 0 !important;
+}
+
+.intrebarile .intrebare{
+  margin-left: 0;
+  text-align: left;
+}
+
+
+hr{
+  width: 422px !important;
+}
+
+p{
+  width: 354px !important;
+}
+
+}
